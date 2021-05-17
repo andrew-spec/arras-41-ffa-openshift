@@ -1,0 +1,90 @@
+{
+  "host": "0.0.0.0",
+  "servesStatic": true,
+  "port": 3000,
+  "logpath": "logger.php",
+
+  "networkUpdateFactor": 24,
+  "socketWarningLimit": 5,
+  "networkFrontlog": 1,
+  "networkFallbackTime": 150,
+  "visibleListInterval": 1000,
+  "gameSpeed": 1,
+  "runSpeed": 1.5,
+  "maxHeartbeatInterval": 99e99,
+  "sqlinfo":{
+    "connectionLimit": 0,
+    "host": "DEFAULT",
+    "user": "root",
+    "password": "DEFAULT",
+    "database": "DEFAULT",
+    "debug": false
+  },
+  "verbose": true,
+
+  "WIDTH": 3500,
+  "HEIGHT": 3500,
+  "MODE": "ffa",
+  "RANDOM_COLORS": false,
+  "BANNED_CHARACTER_REGEX": "/[\uFDFD\u200E\u0000]/gi", 
+ "ROOM_SETUP": [
+    ["port", "norm", "norm", "norm", "norm", "norm","roid","roid"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm", "roid"],
+    ["norm", "norm", "nest", "nest", "nest", "heal", "norm", "norm"],
+    ["norm", "norm", "nest", "gold",  "gold", "nest", "norm", "norm"],
+    ["norm", "norm", "nest", "gold",  "gold", "nest", "norm", "norm"],
+    ["norm", "norm", "heal", "nest", "nest", "nest", "norm", "norm"], 
+    ["roid", "norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["roid", "roid", "norm", "norm",  "norm", "norm", "norm", "port"]
+
+
+
+
+  ],
+  "X_GRID": 8,
+  "Y_GRID": 8,
+  "DAMAGE_CONSTANT": 1,
+  "KNOCKBACK_CONSTANT": 1,
+  "ROOM_BOUND_FORCE": 0.01,
+  "FOOD": [
+    0, 
+    0.3,
+    0.1,
+    0.05,
+    0.005,
+    0,
+    0
+  ],
+  "FOOD_NEST": [
+    0, 
+    0.0,
+    0.0,
+    0.75,
+    1.0,
+    1.0,
+   1.0,
+   1.0,
+     1.0
+  ],
+  "MAX_SKILL": 15,
+  "SOFT_MAX_SKILL": 0.59,
+  "TIER_1": 10,
+  "TIER_2": 25,
+  "TIER_3": 45,
+  "TIER_4": 60,
+
+  "SKILL_CAP":60,
+  
+  "SKILL_SOFT_CAP": 0,
+  "SKILL_CHEAT_CAP": 60,
+ 
+  "SKILL_LEAK": 0,
+  "STEALTH": 4,
+  "MIN_SPEED": 0.001,
+  "FOOD_AMOUNT": 0.0002,
+  "SKILL_BOOST": 5,
+  "BOTS": 0,
+  "GLASS_HEALTH_FACTOR": 2,
+  "prefix2": "#"
+ 
+}
